@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0C1A26;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+
+.logo {
+    margin: 30px auto 30px;
+    display: block;
+}
+
+.line {
+    color: #048C7F;
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #20C0A5, #048C7F);
+    margin: 20px 0;
+}
+
+.subscribe-information {
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.info-active {
+    color: #20C0A5;
+    font-weight: bold;
+}
+
+.info-inactive {
+    color: #D83F37;
+    font-weight: bold;
+}
+
+.key-text {
+    font-weight: 700;
+    color: #20C0A5;
+    margin: 30px 20px 10px;
+    text-align: center;
+}
+
+.owner-key-ul, .additional-key-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+}
+
+.owner-key-ul li, .additional-key-ul li {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #20C0A5;
+    border-radius: 5px;
+    background-color: #1A2633;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #048C7F;
+}
+
+input[type="text"]:readonly {
+    background-color: #1a2633;
+}
+
+.copy-button {
+    background-color: #20C0A5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+    background-color: #048C7F;
+}
+
+.copy-button:active {
+    transform: scale(0.95);
+}
