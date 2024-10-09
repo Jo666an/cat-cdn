@@ -17,7 +17,9 @@ html, body {
 .logo {
     margin: 30px auto 30px;
     display: block;
+    width: 250px;
 }
+
 
 .line {
     color: #048C7F;
@@ -106,4 +108,11 @@ input[type="text"]:readonly {
 
 .copy-button:active {
     transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 200px;
+        margin: 15px auto;
+    }
 }
