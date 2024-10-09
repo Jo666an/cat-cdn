@@ -15,11 +15,11 @@ html, body {
 
 
 .logo {
+    text-align: center;
     margin: 30px auto 30px;
-    display: block;
-    width: 250px;
+    font-size: 20px;
+    color: #20C0A5;
 }
-
 
 .line {
     color: #048C7F;
@@ -108,11 +108,4 @@ input[type="text"]:readonly {
 
 .copy-button:active {
     transform: scale(0.95);
-}
-
-@media (max-width: 768px) {
-    .logo {
-        width: 100px;
-        margin: 15px auto;
-    }
 }
